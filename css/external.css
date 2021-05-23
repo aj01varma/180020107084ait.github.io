@@ -1,0 +1,515 @@
+/* this style is header */
+
+.interested {
+
+width: 100%;
+
+padding: 10px;
+
+}
+
+.interested:focus {
+
+min-width: 100%;
+
+width: auto;
+
+}
+
+.width_admission{
+
+width: 40px;
+
+}
+
+.sidenavbar_height{
+
+height: 20px;
+
+}
+
+.mt{
+
+padding: 22px !important;
+
+}
+
+.white{
+
+color:#fff !important;
+
+}
+
+/*header style end*/
+
+/* this style is index */
+
+.icon-bar-index {
+
+position: fixed;
+
+top: 35%;
+
+left: 0;
+
+-webkit-transform: translateY(-50%);
+
+-ms-transform: translateY(-50%);
+
+transform: translateY(-50%);
+
+z-index: 1040;
+
+background-color: transparent;
+
+margin-top:50px;
+
+}
+
+.icon-bar-index > a.btn {
+
+border-image: none;
+
+border-radius: 0;
+
+}
+
+#tesimonial{
+
+margin-bottom:15px;
+
+}
+
+.font_size{
+
+font-size: 200%;
+
+}
+
+/* index is end */
+
+/* about is start */
+
+#image_about{
+
+max-width:100%;
+
+}
+
+.m-about{
+
+margin-top: -70px;
+
+}
+
+/* about is end */
+
+/* campus is start*/
+
+#menu_branch1 ul li.selected{
+
+color:#fff;
+
+background-color:#fd5f00;
+
+}
+
+#menu_branch1 ul li{
+
+display: inline;
+
+color: #141414;
+
+font-family: Roboto,sans-sarif;
+
+font-size: 18px;
+
+padding: 5px 15px;
+
+cursor: pointer;
+
+}
+
+.gallery{
+
+margin:10px;
+
+}
+
+.gallery img{
+
+transition: 1s;
+
+padding: 15px;
+
+width: 200px;
+
+position: relative;
+
+background-size: cover;
+
+}
+
+.gallery img:hover{
+
+filter: grayscale(100%);
+
+transform: scale(1.1);
+
+}
+
+#gallery-image{
+
+display: none;
+
+}
+
+#e-latter{
+
+display: none;
+
+}
+
+#blog-blog{
+
+display: none;
+
+margin-bottom: 10px;
+
+}
+
+.btn-size{
+
+max-width: 200px;
+
+max-height: 120px;
+
+padding: 10px;
+
+margin-bottom: 10px;
+
+}
+
+#menu_branch123 ul li.selected{
+
+color:#fff;
+
+background-color:#fd5f00;
+
+}
+
+#menu_branch123 ul li{
+
+display: inline;
+
+color: #141414;
+
+font-family: Roboto,sans-sarif;
+
+font-size: 18px;
+
+padding: 5px 15px;
+
+cursor: pointer;
+
+}
+
+.morecontentxyz span {
+
+display: none;
+
+color: black;
+
+}
+
+a.morelink {
+
+color: blue;
+
+}
+
+.button-show{
+
+display: none;
+
+}
+
+.button-show ul{
+
+list-style: none;
+
+}
+
+.button-show ul li{
+
+background-color: darkorange;
+
+width: 120px;
+
+height: 35px;
+
+text-align: center;
+
+line-height: 35px;
+
+position: relative;
+
+border: 1px solid #fff;
+
+}
+
+.button-show ul ul{
+
+display: none;
+
+list-style: none;
+
+}
+
+.button-show ul li:hover > ul{
+
+display: block;
+
+position: absolute;
+
+z-index: 1;
+
+}
+
+@media (max-width: 768px) {
+
+.button-show {
+
+display: block;
+
+
+
+}
+
+/*.inner-banner{
+
+display: none;
+
+}*/
+
+}
+
+/*campus is end*/
+
+/*subject is start*/
+
+#menu_branch_subject ul li.selected {
+
+color: #fff;
+
+background-color: #fd5f00;
+
+}
+
+#menu_branch_subject ul li {
+
+display: inline;
+
+color: #141414;
+
+font-family: Roboto, sans-sarif;
+
+font-size: 18px;
+
+padding: 5px 15px;
+
+cursor: pointer;
+
+}
+
+#ELECTRICALCOMMUNICATE_SUBJECT {
+
+display: none;
+
+}
+
+#ELECTRICAL_SUBJECT {
+
+display: none;
+
+}
+
+#MECHANICAL_SUBJECT {
+
+display: none;
+
+}
+
+#AUTOMOBILE_SUBJECT {
+
+display: none;
+
+}
+
+#CIVIL_SUBJECT {
+
+display: none;
+
+}
+
+#COMPUTER_SUBJECT {
+
+display: none;
+
+}
+
+#IT_SUBJECT {
+
+display: none;
+
+}
+
+/*end subject
+
+/*branch detail*/
+
+#menu_branch_branch_details ul li.selected{
+
+color:#fff;
+
+background-color:#fd5f00;
+
+}
+
+#menu_branch_branch_details ul li{
+
+display: inline;
+
+color: #141414;
+
+font-family: Roboto,sans-sarif;
+
+font-size: 18px;
+
+padding: 5px 15px;
+
+cursor: pointer;
+
+
+
+}
+
+/*branch detail end*/
+
+/*placement company start*/
+
+#menu_dept ul li.active{
+
+color:#fff;
+
+background-color:#fd5f00;
+
+}
+
+#menu_dept ul li{
+
+display: inline;
+
+color: #141414;
+
+font-family: Roboto,sans-sarif;
+
+font-size: 18px;
+
+padding: 5px 15px;
+
+cursor: pointer;
+
+
+
+}
+
+#E_PLACEMENT {
+
+display: none;
+
+}
+
+#MBA_PLACEMENT {
+
+display: none;
+
+}
+
+#MECHANICAL_PLACEMENT {
+
+display: none;
+
+}
+
+#AUTOMOBILE_PLACEMENT {
+
+display: none;
+
+}
+
+#CIVIL_PLACEMENT {
+
+display: none;
+
+}
+
+#IT_PLACEMENT {
+
+display: none;
+
+}
+
+/*placement company end*/
+
+/*placement summary start*/
+
+#menu_year a.active{
+
+    color:#fff;
+
+    background-color:#fd5f00;
+
+}
+
+.nav-link{
+
+    color: #000;
+
+}
+
+/*placement summary end*/
+
+/*contact start*/
+
+.contact_height{
+
+  height: 450px;
+
+  width: 100%;
+
+}
+
+/*contact end*/
+
+
+
+#mySidenav{
+
+    z-index: 9;
+
+}
+
+
+
+.ftco-counter .text strong div {
+
+  font-weight: 600;
+
+  font-size: 40px;
+
+  color: #fff;
+
+  display: block;
+
+}
